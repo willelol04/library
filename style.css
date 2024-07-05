@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper {
+    padding: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.misc {
+    width: 100vw;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    text-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn,
+input[type="button"] {
+    padding: 20px;
+}
+
+.add-book {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.book-form {
+    width: 20%;
+    display: none;
+    text-align: right;
+    z-index: 1;
+    right: 35%;
+
+}
+
+.display-block {
+    display: block;
+    position: fixed;
+    top: 50px;
+    padding: 50px;
+    background: grey;
+}
+
+input[type="text"],
+input[type="number"]{
+    padding: 5px;
+}
+
+.remove {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.make-read {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
